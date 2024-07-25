@@ -1,0 +1,105 @@
+.ad_mainformwrapper{
+    width: 100%;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ad_formmainsubwrapper{
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ad_formmainsubwrapper input{
+    color: #4E4669;
+    padding: 17px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 0px #373F4E;
+}
+
+.ad_form1wrapper{
+    width: 45%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ad_form1inputs{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ad_form1inputs input{
+    width: 100%;
+    padding: 23px 10px;
+}
+
+.ad_form1bottomwrapper{
+    width: 100%;
+    gap: 25px;
+    display: flex;
+}
+
+.ad_form2mainwrapper{
+    width: 50%;
+    display: flex;
+}
+
+.ad_form2wrapper{
+    width: 100%;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ad_form2wrapper input{
+    width: 100%;
+}
+
+.ad_form2bottomwrapper{
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ad_form2botttominput{
+    width: 48%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ad_optionswrapper{
+    width: 100%;
+    margin-top: 75px;
+    gap: 20px;
+    display: flex;
+    position: relative;
+    justify-content: right;
+}
+
+.ad_optioncancel{
+    color: #373F4E;
+    font-weight: 700;
+    background-color: #EBEDF0;
+    box-shadow: 0px 0px 2px 0px #4E576A;
+}
+
+.ad_optionsave{background-color: green;}
+
+.ad_cerrormessage{
+    color: orange;
+    top: -32px;
+    right: 90px;
+    font-size: 15px;
+    position: absolute;
+}

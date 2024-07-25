@@ -1,0 +1,36 @@
+.dc_maincontentwrapper{
+    width: 85%;
+    height: 85%;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dc_documenttypewrapper{
+    width: 100%;
+    gap: 30px;
+    display: flex;
+}
+
+.dc_doctype{
+    width: 270px;
+    height: 180px;
+    padding: 30px 30px;
+    gap: 18px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px #373F4E;
+}
+
+.dc_doctype img{
+    width: 60px;
+    filter: invert(50%);
+}
+
+.dc_doctype p{
+    font-size: 18px;
+    font-weight: 600;
+}

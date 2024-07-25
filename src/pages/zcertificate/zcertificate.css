@@ -1,0 +1,94 @@
+.zc_maincontentwrapper{
+    width: 85%;
+    height: 85%;
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.zc_maintypewrapper{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.zc_typewrapper{
+    width: 270px;
+    height: 180px;
+    margin-top: 20px;
+    padding: 30px 30px;
+    display: flex;
+    align-items: end;
+    justify-content: left;
+    border-radius: 10px;
+    background-color: #212121;
+    box-shadow: 0px 0px 3px 0px #373F4E;
+}
+
+.zc_typewrapper h4{
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.zc_rightmainwrapper{
+    width: 67%;
+    margin-top: 10px;
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.zc_righttopwrapper{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.zc_righttopwrapper input{
+    width: 30%;
+    height: 100%;
+    padding: 0px 13px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px 0px #373F4E;
+}
+
+.zc_tablemainwrapper{
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px #373F4E;
+}
+
+.zc_tablesubwrapper{
+    width: 100%;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+.zc_tablesubwrapper h1{
+    margin-top: 130px;
+    font-size: 28px;
+}
+
+.zc_tablesubwrapper::-webkit-scrollbar{display: none;}
+
+.zc_tablemainwrapper table{table-layout: fixed;}
+
+.zc_tablemainwrapper table tbody td{padding: 25px 5px;}
+
+.zc_tablegeneratebutton{
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 13px 18px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #212121;
+    box-shadow: 0px 0px 2px 0px #4E576A;
+}

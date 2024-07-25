@@ -1,0 +1,105 @@
+.ed_mainformwrapper{
+    width: 100%;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ed_formmainsubwrapper{
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ed_formmainsubwrapper input{
+    color: #4E4669;
+    padding: 17px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 0px #373F4E;
+}
+
+.ed_form1wrapper{
+    width: 45%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ed_form1inputs{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ed_form1inputs input{
+    width: 100%;
+    padding: 23px 10px;
+}
+
+.ed_form1bottomwrapper{
+    width: 100%;
+    gap: 25px;
+    display: flex;
+}
+
+.ed_form2mainwrapper{
+    width: 50%;
+    display: flex;
+}
+
+.ed_form2wrapper{
+    width: 100%;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ed_form2wrapper input{
+    width: 100%;
+}
+
+.ed_form2bottomwrapper{
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ed_form2botttominput{
+    width: 48%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ed_optionswrapper{
+    width: 100%;
+    margin-top: 75px;
+    gap: 20px;
+    display: flex;
+    position: relative;
+    justify-content: right;
+}
+
+.ed_optioncancel{
+    color: #373F4E;
+    font-weight: 700;
+    background-color: #EBEDF0;
+    box-shadow: 0px 0px 2px 0px #4E576A;
+}
+
+.ed_optionsave{background-color: green;}
+
+.ed_cerrormessage{
+    color: orange;
+    top: -32px;
+    right: 90px;
+    font-size: 15px;
+    position: absolute;
+}

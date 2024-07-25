@@ -1,0 +1,61 @@
+.lg_mainwrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lg_formwrapper{
+    width: 27%;
+    min-width: 340px;
+    padding: 37px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 0px 0px 3px 0px #4E576A;
+}
+
+.lg_formwrapper p{
+    color: #4E576A;
+    font-weight: 600;
+    padding-bottom: 18px;
+}
+
+.lg_formwrapper form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lg_formwrapper form label{
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.lg_formwrapper form input{
+    font-weight: 600;
+    padding: 18px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #EBEDF0;
+    box-shadow: 0px 0px 2px 0px #373F4E;
+}
+
+.lg_formwrapper form input:focus{
+    outline: none;
+}
+
+.lg_error{
+    color: orange;
+    font-weight: 800;
+}
+
+.lg_formwrapper button{
+    margin-top: 30px;
+    padding: 15px 0px;
+}

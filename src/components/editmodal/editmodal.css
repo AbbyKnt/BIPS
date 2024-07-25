@@ -1,0 +1,51 @@
+.edt_mainbutton{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: green;
+    box-shadow: 0px 0px 3px 0px #373F4E;
+}
+
+.edt_mainbutton img{
+    width: 15px;
+    margin: auto;
+    filter: invert(100%);
+}
+
+.edt_mainwrapper{
+    width: 55%;
+    padding: 45px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 3px 0px #4E576A;
+}
+
+.edt_noticewrapper{
+    width: 100%;
+    padding: 5px 5px;
+    margin-bottom: 60px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edt_noticewrapper img{
+    cursor: pointer;
+    width: 30px;
+    height: 10%;
+    padding: 5px 5px;
+    border-radius: 10px;
+    background-color: #EBEDF0;
+    box-shadow: 0px 0px 2px #373F4E;
+}
+
+.edt_noticewrapper p{
+    color: #373F4E;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.edt_username{color: green;}
